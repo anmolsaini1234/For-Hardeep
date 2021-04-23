@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+
+}
+
+header .nav sticky {
+  background-color: black;
+
+}
+
+.s1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.c1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c1b ul {
+  list-style: none;
+  margin-top: 0px;
+
+}
+
+.c1b ul li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 25px;
+  color: white;
+
+}
+
+
+.c1a {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: white;
+  filter: brightness(7.5);
+  z-index: 1;
+
+}
+
+
+
+.main {
+  font-size: 55px;
+  position: relative;
+  top: 120px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main2 a {
+  text-decoration: none;
+  border: 2px solid crimson;
+  color: white;
+  font-size: 40px;
+  padding: 36px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition-property: background;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+
+}
+.nav-color{
+  color: blue;
+}
+
+
+.main2 a:hover {
+  background: crimson;
+}
+.main1 {
+  font-family: 'Sansita Swashed', cursive;
+  opacity: 0;
+  animation: fadeUp .5s forwards;
+  animation-delay: 0.5s;
+
+}
+.nav {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  filter: opacity(0.7);
+
+  position: fixed;
+  top: 0;
+
+}
+.s2a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.a1 {
+  font-size: 55px;
+  font-family: 'Playfair Display', serif;
+  margin: 20px;
+
+}
+span {
+  color: crimson;
+}
+
+.b1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+
+}
+
+.service-bottom {
+  display: flex;
+}
+
+.service-item {
+  border: 2px solid black;
+  border-radius: 17px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 25px;
+  margin: 25px;
+
+}
+
+.ser {
+  font-size: 50px;
+  margin: 30px;
+  font-family: 'Heebo', sans-serif;
+
+
+}
+.ser::first-letter {
+  font-size: 85px;
+
+}
+.d1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-size: 18px;
+  font-family: 'Cutive Mono', monospace;
+  margin: 20px;
+}
+
+.rp {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+}
+
+.intro1 {
+font-size: 25px;
+background-color: #294a6c;
+color: ghostwhite;
+padding: 10px;
+}
+
+.img1 {
+  width: 660px;
+  height: 390px;
+  transition-property: transform;
+  transition-timing-function: ease;
+  transition-duration: 300ms;
+
+}
+.img1:hover {
+  transform: scale(1.1);
+}
+
+.p1, .p2, .p3, .p4 {
+  display: flex;
+  margin: 30px;
+
+}
+
+.all-projects {
+  display: block;
+
+}
+
+
+
+
+@keyframes fadeUp  {
+0% {
+  transform: translateY(4rem);
+}
+100%{
+  opacity: 1;
+  transform: translateY(0rem);
+}
+}
+
+@keyframes scale {
+0% {
+  transform: scale(2);
+}
+100% {
+  transform: scale(1);
+
+}
+}
+
+h2 {
+  animation: scale 1s backwards;
+  animation-delay: 2sec;
+  text-align: center;
+}
+
+.img2 {
+
+}
